@@ -3,5 +3,22 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+
+Route::get('/contactus', function () {
+    return view('contact');
+});
+
+Route::get('/explore', function () {
+    return view('products');
+});
+
+Route::get('/cart', function () {
+    return view('cart_prod');
+});
+
+Route::get('/login', function () {
+    return view('register');
 });
