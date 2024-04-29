@@ -55,6 +55,8 @@ nav{
     background-color: #000;
     overflow: hidden;
     height: 70px !important;
+    position: relative;
+    z-index: 999 !important;
 }
 .logo-img{
     line-height: 70px !important;
@@ -848,7 +850,7 @@ margin-left: -18rem;
   justify-items: center; /* Horizontally center items */
   align-items: center; /* Vertically center items */
   gap: 20px ; /* Adjust the gap between columns */
-  padding-bottom: 20%; /* Padding at the bottom */
+ /* Padding at the bottom */
 
 
 }
@@ -868,7 +870,7 @@ margin-left: -18rem;
 .card-grid-cont{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding-bottom: 20%;
+
   
   } 
 }
@@ -878,7 +880,7 @@ margin-left: -18rem;
 .card-grid-cont{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  padding-bottom: 20%;
+
   
   } 
 }
@@ -938,6 +940,55 @@ margin-left: -18rem;
 
 .star i:hover {
   transform: rotateY(0deg); /* Flip the element back on hover out */
+}
+
+.normal-btn{
+  background-color: var(--red);
+  color: #fff;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+
+.normal-btn:hover{
+  background-color: var(--red-hover);
+  color: #fff;
+  
+}
+@keyframes moveOut {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes moveIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+.btn svg {
+  transition: transform 0.5s ease;
+}
+
+.btn:hover svg {
+  animation: moveOut 0.5s forwards;
+}
+
+.btn svg:hover {
+  animation: moveIn 0.5s forwards;
 }
 
 

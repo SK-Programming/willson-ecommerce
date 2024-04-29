@@ -60,6 +60,26 @@ function closeSidebar() {
 }
 
 
+$(document).ready(function() {
+  // Function to update active class based on current URL
+  function updateActiveLink() {
+      var path = window.location.pathname;
+      $('.navigation ul li').removeClass('active');
+      $('.navigation ul li a').each(function() {
+          if ($(this).attr('href') === path) {
+              $(this).closest('li').addClass('active');
+          }
+      });
+  }
+
+  // Update active class on page load
+  updateActiveLink();
+
+  // Update active class when navigating using browser back/forward buttons
+  window.addEventListener('popstate', function() {
+      updateActiveLink();
+  });
+});
 
 
 

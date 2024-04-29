@@ -64,7 +64,7 @@
         </a>
       </li>
       <li class="list {{ Request::is('explore') ? 'active' : '' }}">
-        <a href="{{ url('/contactus') }}">
+        <a href="{{ url('/explore') }}">
           <span class="icon">
             <i class="fa-solid fa-layer-group"></i>
           </span>

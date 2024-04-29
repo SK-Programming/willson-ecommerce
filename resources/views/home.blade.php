@@ -295,6 +295,20 @@
     
   </div>
 
+
+
+  
+<div class="d-flex justify-content-center ">
+  <button class="px-4 btn normal-btn">More 
+<svg xmlns="http://www.w3.org/2000/svg"  width="18" height="18" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+</svg>
+    
+  </button>
+</div>
+
+
+  
 {{-- 
   <main>
     <div class="containerr">
@@ -368,7 +382,7 @@
 </div>
 
 
- 
+{{--  
   <div class="limited ">
     
     <img src="images/summerwear.png" alt="">
@@ -377,7 +391,7 @@
 <h3>Summer</h3>
 <h3>Collection</h3>
 <h3>Here</h3>
-{{-- <p id="timer">Calculating...</p> --}}
+
 
 <button class="mt-5 btn btn-collection">Check It Out</button>
         
@@ -386,7 +400,7 @@
     
   </div>
 
-  
+   --}}
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
 
