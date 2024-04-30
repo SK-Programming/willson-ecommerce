@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js" integrity="sha512-jEnuDt6jfecCjthQAJ+ed0MTVA++5ZKmlUcmDGBv2vUI/REn6FuIdixLNnQT+vKusE2hhTk2is3cFvv5wA+Sgg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+  </head>
 <body>
 
 
@@ -71,6 +72,14 @@
           <span class="text">Explore</span>
         </a>
       </li>
+      <li class="list {{ Request::is('profile') ? 'active' : '' }}">
+        <a href="{{ url('/profile') }}">
+          <span class="icon">
+            <i class="fa-solid fa-user"></i>
+          </span>
+          <span class="text">Profile</span>
+        </a>
+      </li>
       <li class="list {{  Request::is('cart') ? 'active' : '' }}">
         <a href="{{ url('cart') }}">
           <span class="icon">
@@ -83,7 +92,7 @@
       <li class="list {{ Request::is('contactus') ? 'active' : '' }}">
         <a href="{{ url('/contactus') }}">
           <span class="icon">
-            <i class="fa-solid fa-hands-holding-child"></i>
+            <i class='fas fa-headset'></i>
           </span>
           <span class="text">Contact</span>
         </a>
@@ -91,22 +100,23 @@
       <div class="indicator"></div>
     </ul>
   </div>
-  
-<button class="px-4 mx-3 btn login-btn " onclick="window.location.href='{{ url('/login') }}'">  <i class="fa-solid fa-user"></i> Login</button>
+{{--   
+<button class="px-4 mx-3 btn login-btn " onclick="window.location.href='{{ url('/login') }}'">  <i class="fa-solid fa-user"></i> Login</button> --}}
 
 
-{{-- 
+
 <div class="mx-3 dropdown">
 
   <div class="user-img-cont dropdown-toggle" style="background-image: url('images/user.png');" data-bs-toggle="dropdown" aria-expanded="false"   ></div>
 
   <ul class="dropdown-menu">
     
+    <li><a class="dropdown-item" href='{{ url('/profile') }}'>Profile</a></li>
     <li><a class="dropdown-item" href="#">Logout</a></li>
     
   </ul>
 </div>
- --}}
+
 
 
 

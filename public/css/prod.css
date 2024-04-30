@@ -147,41 +147,41 @@ body {
 /* Piplup */
 
 .flex--piplup .flex__item--left {
-	background: #3e9fe6;
+	background: #424242;
 }
 
 .flex--piplup .flex__item--right {
-	background: #d3eaef;
+	background: #a7bcbb;
 }
 
 /* Pikachu */
 
 .flex--pikachu .flex__item--left {
-	background: #f8d41f;
+	background: #8c1124;
 }
 
 .flex--pikachu .flex__item--right {
-	background: #f4ecc5;
+	background: #ebdbdb;
 }
 
 /* Blaziken */
 
 .flex--blaziken .flex__item--left {
-	background: #f64f37;
+	background: #378af6;
 }
 
 .flex--blaziken .flex__item--right {
-	background: #ffebcd;
+	background: #cddaff;
 }
 
 /* Dialga */
 
 .flex--dialga .flex__item--left {
-	background: #476089;
+	background: #424242;
 }
 
 .flex--dialga .flex__item--right {
-	background: #ade8f7;
+	background: #a7bcbb;
 }
 
 /* Zekrom */
@@ -205,8 +205,8 @@ body {
 .pokemon__img {
 	position: absolute;
 	bottom: 20px;
-	right: 15%;
-	max-height: 40vw;
+	right: 5%;
+	max-height: 38vw;
 	opacity: 1;
 	transform: translate3d(0,0,0);
 	transition: opacity 0.43s 0.6s, transform 0.4s 0.65s cubic-bezier(0, 0.88, 0.4, 0.93);
@@ -242,4 +242,220 @@ body {
 .flex__container.animate--end .pokemon__img {
 	transform: translate3d(200px,0,0);
 	opacity: 0;
+}
+
+
+.prod-nav{
+	margin-top: -5%;
+	padding-bottom: 1%;
+	border-bottom: 1px solid #a0a0a046;
+}
+.sm-tag i{
+	color: #fff;
+	font-size: 1.6em;
+	cursor: pointer;
+	transition: all .2s ease ;
+	-webkit-transition: all .2s ease ;
+	-moz-transition: all .2s ease ;
+	-ms-transition: all .2s ease ;
+	-o-transition: all .2s ease ;
+}
+.bor{
+height: 1.6em;
+align-items: center;
+display: flex;
+	border-right: 1px solid #a0a0a046;
+}
+.gr{
+	font-size: 1.4em !important;
+}
+.fa-sliders{
+	font-size: 1.4em !important;
+}
+.sm-tag i:active{
+	transform: scale(.8);
+	-webkit-transform: scale(.8);
+	-moz-transform: scale(.8);
+	-ms-transform: scale(.8);
+	-o-transform: scale(.8);
+}
+  .search-box{
+	width: fit-content;
+	height: fit-content;
+	position: relative;
+  }
+  .input-search{
+	height: 50px;
+	width: 50px;
+	border-style: none;
+	padding: 10px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	outline: none;
+	border-radius: 25px;
+	transition: all .5s ease-in-out;
+	background-color: #c50000;
+	padding-right: 40px;
+	color:#fff;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-ms-border-radius: 25px;
+	-o-border-radius: 25px;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+}
+  .input-search::placeholder{
+	color:rgba(255,255,255,.5);
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-weight: 100;
+  }
+  .btn-search{
+	width: 50px;
+	height: 50px;
+	border-style: none;
+	font-size: 20px;
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+	border-radius: 50%;
+	position: absolute;
+	right: 0px;
+	color:#ffffff ;
+	background-color:transparent;
+	pointer-events: painted;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+  .btn-search:focus ~ .input-search{
+	width: 300px;
+	border-radius: 0px;
+	background-color: transparent;
+	border-bottom:1px solid rgba(255,255,255,.5);
+	transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-ms-border-radius: 0px;
+	-o-border-radius: 0px;
+	-webkit-transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+	-moz-transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+	-ms-transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+	-o-transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+  .input-search:focus{
+	width: 300px;
+	border-radius: 0px;
+	background-color: transparent;
+	border-bottom:1px solid rgba(255,255,255,.5);
+	transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-ms-border-radius: 0px;
+	-o-border-radius: 0px;
+	-webkit-transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+	-moz-transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+	-ms-transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+	-o-transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+  
+
+.card-grid-cont{
+	padding: 5%;
+}
+
+
+/* filter side bar  */
+
+.filter{
+	width: 40%;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	z-index: 999;
+	background-color: #00000034;
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(20px);
+	transform: translateX(-900px);
+	-webkit-transform: translateX(-900px);
+	-moz-transform: translateX(-900px);
+	-ms-transform: translateX(-900px);
+	-o-transform: translateX(-900px);
+	transition: transform 0.5s ease ;
+	-webkit-transition: transform 0.5s ease ;
+	-moz-transition: transform 0.5s ease ;
+	-ms-transition: transform 0.5s ease ;
+	-o-transition: transform 0.5s ease ;
+}
+
+.open-sesme{
+	transform: translateX(0) !important;
+	-webkit-transform: translateX(0) !important;
+	-moz-transform: translateX(0) !important;
+	-ms-transform: translateX(0) !important;
+	-o-transform: translateX(0) !important;
+}
+
+#closee{
+	cursor: pointer;
+	transition: transform 0.1s ease ;
+	-webkit-transition: transform 0.1s ease ;
+	-moz-transition: transform 0.1s ease ;
+	-ms-transition: transform 0.1s ease ;
+	-o-transition: transform 0.1s ease ;
+}
+#closee:active{
+	transform: scale(.8);
+	-webkit-transform: scale(.8);
+	-moz-transform: scale(.8);
+	-ms-transform: scale(.8);
+	-o-transform: scale(.8);
+}
+
+.tagg{
+	background-color: #00000034;
+	backdrop-filter: blur(15px);
+	border: 1px solid #c50000;
+	color: #fff;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+  
+  .selected {
+    background-color: #c50000;
+    color: #fff;
+  }
+  
+  .close-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 3px;
+    cursor: pointer;
+    display: none;
+  }
+.list-cont{
+	margin-top: 5%;
+	padding-bottom: 5%;
+}
+  .list-card{
+	background-color: #242222;
+	width: 100%;
+	border: 2px solid #c50000;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+overflow: hidden;
+display: flex;
+}
+
+  .list-card img{
+	width: 14%;
+  
 }

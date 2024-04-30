@@ -4,26 +4,26 @@
     <div class="flex__container flex--pikachu flex--active" data-slide="1">
       <div class="flex__item flex__item--left">
         <div class="flex__content">
-          <p class="text--sub">Pokemon Gen I</p>
-          <h1 class="text--big">Pikachu</h1>
-          <p class="text--normal">Pikachu is an Electric-type Pokémon introduced in Generation I. Pikachu are small, chubby, and incredibly cute mouse-like Pokémon. They are almost completely covered by yellow fur.</p>
+          <p class="text--sub">Men's Baseball Cleats</p>
+          <h1 class="text--big">Jordan Retro</h1>
+          <p class="text--normal">Bringing the iconic design of the Air Jordan 1 to the ballpark, the Jordan 1 Retro MCS has a molded outsole for traction that digs in, while its durable upper delivers a supportive fit.</p>
         </div>
-        <p class="text__background">Pikachu</p>
+        <p class="text__background">Jordan</p>
       </div>
       <div class="flex__item flex__item--right"></div>
-      <img class="pokemon__img" src="images/slider-shoe-1.png" />
+      <img class="pokemon__img" src="images/slide-img1.png" />
     </div>
     <div class="flex__container flex--piplup animate--start" data-slide="2">
       <div class="flex__item flex__item--left">
         <div class="flex__content">
-          <p class="text--sub">Pokemon Gen IV</p>
-          <h1 class="text--big">Piplup</h1>
-          <p class="text--normal">Piplup is the Water-type Starter Pokémon of the Sinnoh region. It was introduced in Generation IV. Piplup has a strong sense of self-esteem. It seldom accepts food that people give because of its pride.</p>
+          <p class="text--sub">Stainless Steel Bottle</p>
+          <h1 class="text--big">Nike Recharge</h1>
+          <p class="text--normal">From workouts to trails, this bottle's vacuum-insulated stainless steel keeps drinks cold. Twist-off cap for easy rehydration. Durable, leak-resistant, with comfortable carrying loop. </p>
         </div>
-        <p class="text__background">Piplup</p>
+        <p class="text__background">Nike Recharge</p>
       </div>
       <div class="flex__item flex__item--right"></div>
-      <img class="pokemon__img" src="images/slider-shoe-1.png" />
+      <img class="pokemon__img" src="images/bottle.png" />
     </div>
     <div class="flex__container flex--blaziken animate--start" data-slide="3">
       <div class="flex__item flex__item--left">
@@ -35,7 +35,7 @@
         <p class="text__background">Blaziken</p>
       </div>
       <div class="flex__item flex__item--right"></div>
-      <img class="pokemon__img" src="images/slider-shoe-1.png" />
+      <img class="pokemon__img" src="images/ball.png" />
     </div>
     <div class="flex__container flex--dialga animate--start" data-slide="4">
       <div class="flex__item flex__item--left">

@@ -82,4 +82,20 @@ $(document).ready(function() {
 });
 
 
+function opean(){
+const bar = document.getElementById('filter');
+
+bar.classList.add("open-sesme");
+document.body.classList.add("overflow-hidden");
+}
+
+function cloase(){
+const bar = document.getElementById('filter');
+
+bar.classList.remove("open-sesme");
+document.body.classList.remove("overflow-hidden");
+}
+
+
+
 
